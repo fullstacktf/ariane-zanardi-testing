@@ -1,9 +1,9 @@
-function moneyFormat(number){
+function moneyFormat(number) {
 
-    number = "";
-    return (number);
+  number = number.toFixed(2);
+  number = "$" + number;
+  
+  return number;
 }
 
-module.exports = moneyFormat;
-
-
+export default moneyFormat;

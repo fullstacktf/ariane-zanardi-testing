@@ -1,13 +1,13 @@
-function formatMb(value){
-    return `${value}MB`
+function formatMb(value) {
+  return `${value}MB`
 }
 
 function formatGb(value){
-    return `${value}GB`;
+  return `${value}GB`;
 }
 
 function formarTb(value){
-    return `${value}TB`;
+  return `${value}TB`;
 }
 
 function formatBytes(megaBytes) {
@@ -33,4 +33,4 @@ function formatBytes(megaBytes) {
 }
 
 
-module.exports = formatBytes;
+export default formatBytes;
